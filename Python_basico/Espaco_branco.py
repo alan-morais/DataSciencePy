@@ -1,7 +1,5 @@
-for i in [1, 2 , 3, 4, 5]:
-    print (i)
-    for j in [1, 2, 3, 4, 5]:
-        print (j)
-        print (i + j)
-        print (i)
-        print ("done looping")
+import numpy as np
+import pandas as pd
+
+s = pd.series([1, 3, 5, np.nan, 6, 8])
+
