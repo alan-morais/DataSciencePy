@@ -1,6 +1,5 @@
-import csv
+import numpy as np
+import pandas as pd
 
-with open('arquivos/conselho_conferencia.csv', encoding ='utf-8') as entrada:
-    ler = csv.reader (entrada)
-    for linha in ler:
-        print (linha)
+s = pd.series([1, 3, 5, np.nan, 6, 8])
+
